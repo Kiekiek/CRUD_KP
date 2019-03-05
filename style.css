@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-nav li a{
+    margin-right: 40px;
+    color: #D5D5D5;
+}
+
+#home {
+    background: url(img/books-business-computer-459654.png) no-repeat fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+}
+.padding {
+    padding: 80px;
+}
+
+#img-fixed {
+    background: url(img/background.jpg) no-repeat center fixed;
+    display: table;
+    height: 50%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    background-color: #23415C;
+    padding: 5%;
+    color: white;
+}
+
+.fa{
+    padding: 15px;
+    color: white;
+}
+
+.fa:hover {
+    color: gray;
+}
+#icon-plus {
+    width: 12%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.navbar-gray {
+    background-color: #a9a9a9;
+}
+
+/*
+ change the brand and text color 
+.navbar-gray .navbar-brand,
+.navbar-gray .navbar-text {
+    color: black;
+}
+*/
+
+/* change the link color */
+.navbar-gray .navbar-nav .nav-link {
+    color: white;
+}
+
+/* change the color of active or hovered links */
+.navbar-gray .nav-item.active .nav-link,
+.navbar-gray .nav-item:hover .nav-link {
+    color: black;
+}
